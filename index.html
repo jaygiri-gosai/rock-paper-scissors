@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
     <!-- Attach external script.js file to the index.html -->
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <button value="rock">Rock</button>
+    <button value="paper">Paper</button>
+    <button value="scissors">Scissor</button>
+    <div>
+      <br />
+      <div id="player">
+        <label>Player Score</label>
+        <input type="text" id="pscore" name="pscore" readonly />
+      </div>
+      <div id="computer">
+        <label>Computer Score</label>
+        <input type="text" id="cscore" name="cscore" readonly />
+      </div>
+      <div id="result"></div>
+    </div>
+  </body>
 </html>
